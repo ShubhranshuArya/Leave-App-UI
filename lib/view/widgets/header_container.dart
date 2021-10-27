@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:futuryze_assignment/constants/color_constants.dart';
 import 'package:futuryze_assignment/constants/custom_text.dart';
 import 'package:futuryze_assignment/constants/icon_constants.dart';
+import 'package:futuryze_assignment/view/screens/stats_screen.dart';
+import 'package:get/get.dart';
 
 class HeaderContainer extends StatelessWidget {
   const HeaderContainer({Key? key}) : super(key: key);
@@ -31,7 +33,13 @@ class HeaderContainer extends StatelessWidget {
                   ),
                 ],
               ),
-              Icon(LeaveApp.notification_bell, color: Colors.white),
+              GestureDetector(
+                onTap: () => Get.to(StatsScreen()),
+                child: Icon(
+                  LeaveApp.notification_bell,
+                  color: Colors.white,
+                ),
+              ),
             ],
           ),
           SizedBox(height: 20),
