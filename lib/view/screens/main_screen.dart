@@ -3,8 +3,8 @@ import 'package:futuryze_assignment/constants/color_constants.dart';
 import 'package:futuryze_assignment/constants/custom_text.dart';
 import 'package:futuryze_assignment/constants/static_data.dart';
 import 'package:futuryze_assignment/view/screens/leave_screen.dart';
-import 'package:futuryze_assignment/view/widgets/header_container.dart';
-import 'package:futuryze_assignment/view/widgets/list_item.dart';
+import 'package:futuryze_assignment/view/widgets/main_screen/header_container.dart';
+import 'package:futuryze_assignment/view/widgets/main_screen/list_item.dart';
 import 'package:get/get.dart';
 
 class MainScreen extends StatelessWidget {
